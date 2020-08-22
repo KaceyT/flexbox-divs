@@ -106,6 +106,42 @@ body {
   padding: 2em;
   font-size: 1em;
   height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+header,
+footer {
+    height: 80px;
+    width: 100%;
+}
+
+main {
+    height: 250px;
+    width: 100%;
+    border-bottom: 1px solid #fff;
+}
+
+header,
+footer,
+main {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+h1 {
+    color: #fff;
+    font-size: 4em;
+}
+
+main p {
+    color: #fff;
+    font-size: 2em;
+}
+
+span {
+    font-weight: bold;
 }
 
 .wrapper {
@@ -132,6 +168,15 @@ body {
     border-left: 1px solid #fff;
     padding-left: 20px;
 }
+
+footer {
+    border-top: 1px solid #fff;
+}
+
+footer p {
+    color: #fff;
+}
+
 
 
 
